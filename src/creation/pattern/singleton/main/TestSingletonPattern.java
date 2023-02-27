@@ -1,17 +1,64 @@
 package creation.pattern.singleton.main;
 
-import creation.pattern.singleton.model.SingletonModel;
+import creation.pattern.singleton.model.SingletonFive;
+import creation.pattern.singleton.model.SingletonFour;
+import creation.pattern.singleton.model.SingletonOne;
+import creation.pattern.singleton.model.SingletonSix;
+import creation.pattern.singleton.model.SingletonThree;
+import creation.pattern.singleton.model.SingletonTwo;
 
 public class TestSingletonPattern {
-
+	
 	public static void main(String[] args) {
-		
-		SingletonModel singletonModelOne = SingletonModel.getInstance();
-		System.out.println("singletonModelOne -> ");
-		System.out.println(System.identityHashCode(singletonModelOne)+ " - " + singletonModelOne.testMethod());
-		
-		SingletonModel singletonModelTwo = SingletonModel.getInstance();
-		System.out.println("singletonModelTwo -> ");
-		System.out.println(System.identityHashCode(singletonModelTwo)+ " - " + singletonModelTwo.testMethod());
+		//singletonOne();
+		//singletonTwo();
+		//singletonThree();
+		//singletonFour();
+		//singletonFive();
+		singletonSix();
 	}
+
+	private static void singletonOne() {
+		SingletonOne object1 = SingletonOne.getInstance();
+		System.out.println("object1 address : " + System.identityHashCode(object1));
+		SingletonOne object2 = SingletonOne.getInstance();
+		System.out.println("object2 address : " + System.identityHashCode(object2));		
+	}
+	
+	private static void singletonTwo() {
+		SingletonTwo object1 = SingletonTwo.getInstance();
+		System.out.println("object1 address : " + System.identityHashCode(object1));
+		SingletonTwo object2 = SingletonTwo.getInstance();
+		System.out.println("object2 address : " + System.identityHashCode(object2));		
+	}
+	
+	private static void singletonThree() {
+		SingletonThree object1 = SingletonThree.getInstance();
+		System.out.println("object1 address : " + System.identityHashCode(object1));
+		SingletonThree object2 = SingletonThree.getInstance();
+		System.out.println("object2 address : " + System.identityHashCode(object2));		
+	}
+	
+	private static void singletonFour() {
+		SingletonFour object1 = SingletonFour.getInstance();
+		System.out.println("object1 address : " + System.identityHashCode(object1));
+		SingletonFour object2 = SingletonFour.getInstance();
+		System.out.println("object2 address : " + System.identityHashCode(object2));		
+	}
+	
+	private static void singletonFive() {
+		SingletonFive object1 = SingletonFive.getInstance();
+		System.out.println("object1 address : " + System.identityHashCode(object1));
+		SingletonFive object2 = SingletonFive.getInstance();
+		System.out.println("object2 address : " + System.identityHashCode(object2));		
+	}
+	
+	private static void singletonSix() {
+		SingletonSix object1 = SingletonSix.getInstance();
+		System.out.println("object1 address : " + System.identityHashCode(object1));
+		SingletonSix object2 = SingletonSix.getInstance();
+		System.out.println("object2 address : " + System.identityHashCode(object2));		
+	}
+
+
 }
