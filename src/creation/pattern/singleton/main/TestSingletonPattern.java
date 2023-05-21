@@ -1,11 +1,6 @@
 package creation.pattern.singleton.main;
 
-import creation.pattern.singleton.model.SingletonFive;
-import creation.pattern.singleton.model.SingletonFour;
-import creation.pattern.singleton.model.SingletonOne;
-import creation.pattern.singleton.model.SingletonSix;
-import creation.pattern.singleton.model.SingletonThree;
-import creation.pattern.singleton.model.SingletonTwo;
+import creation.pattern.singleton.model.*;
 
 public class TestSingletonPattern {
 	
@@ -22,7 +17,7 @@ public class TestSingletonPattern {
 		SingletonOne object1 = SingletonOne.getInstance();
 		System.out.println("object1 address : " + System.identityHashCode(object1));
 		SingletonOne object2 = SingletonOne.getInstance();
-		System.out.println("object2 address : " + System.identityHashCode(object2));		
+		System.out.println("object2 address : " + System.identityHashCode(object2));	
 	}
 	
 	private static void singletonTwo() {
