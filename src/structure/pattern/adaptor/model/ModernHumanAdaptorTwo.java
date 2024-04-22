@@ -1,6 +1,7 @@
 package structure.pattern.adaptor.model;
 
-public class ModernHumanAdaptorTwo {
+// Object adapter
+public class ModernHumanAdaptorTwo implements ModernInterface{
 	
 	private LegacyImpl legacyImpl = new LegacyImpl();
 	

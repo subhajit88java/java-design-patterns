@@ -1,7 +1,9 @@
 package structure.pattern.adaptor.model;
 
-public class ModernHumanAdaptorOne extends LegacyImpl{
+// Class adapter
+public class ModernHumanAdaptorOne extends LegacyImpl implements ModernInterface{
 	
+	@Override
 	public Human getModernHumanDescription(Long height, Long weight, Long speed) {
 		Human human =  getHumanDescription(height, weight, speed);
 		Long convertedHeight = convertToMeter(human.getHeight());

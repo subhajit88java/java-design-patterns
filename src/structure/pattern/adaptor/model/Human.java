@@ -1,5 +1,6 @@
 package structure.pattern.adaptor.model;
 
+// pojo
 public class Human {
 	
 	private Long height;

@@ -1,5 +1,6 @@
 package structure.pattern.adaptor.model;
 
+// Adaptee
 public class LegacyImpl implements LegacyInterface{
 
 	@Override

@@ -4,6 +4,7 @@ import structure.pattern.adaptor.model.Human;
 import structure.pattern.adaptor.model.LegacyImpl;
 import structure.pattern.adaptor.model.ModernHumanAdaptorOne;
 
+// Client
 public class TestAdaptorPatternMain {
 	
 	public static void main(String[] args) {
@@ -29,3 +30,9 @@ public class TestAdaptorPatternMain {
 	}
 
 }
+
+// Components of Adapter design pattern :
+// 1. Client 
+// 2. Target
+// 3. Adaptee
+// 4. Adapter
