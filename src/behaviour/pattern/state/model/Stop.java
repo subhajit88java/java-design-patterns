@@ -1,16 +1,15 @@
 package behaviour.pattern.state.model;
 
-//Concrete state
-public class Secondary implements AcademicStage{
+public class Stop  implements AcademicStage{
 
 	@Override
 	public void doLearning() {
-		System.out.println("Secondary!");
+		System.out.println("Enough study, now stop!");
 	}
 
 	@Override
 	public AcademicStage nextCourse() {
-		return new HigherSecondary();
+		return this;
 	}
-	
+
 }

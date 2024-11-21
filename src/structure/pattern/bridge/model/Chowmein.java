@@ -1,5 +1,6 @@
 package structure.pattern.bridge.model;
 
+// Refined Abstraction 
 public class Chowmein extends MainFood{
 
 	public Chowmein(NonVegToppings topping) {

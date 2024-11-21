@@ -1,5 +1,6 @@
 package behaviour.pattern.strategy.model;
 
+// Concrete Strategy
 public class Bus implements Transport{
 
 	private int seatNo;

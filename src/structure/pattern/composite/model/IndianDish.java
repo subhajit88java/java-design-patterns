@@ -3,14 +3,14 @@ package structure.pattern.composite.model;
 import java.util.ArrayList;
 import java.util.List;
 
-// composite component
-public class Menu implements Dish{
-
-	List<Dish> dishes = new ArrayList<>();
+//composite component
+public class IndianDish implements Dish{
 	
+	List<Dish> dishes = new ArrayList<>();
+
 	@Override
 	public void dishPrice() {
-		System.out.println("Main menu ==============> ");
+		System.out.println("India dishes ==============> ");
 		for(Dish dish : dishes)
 			dish.dishPrice();
 	}

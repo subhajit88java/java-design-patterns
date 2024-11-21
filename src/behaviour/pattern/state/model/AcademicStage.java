@@ -1,6 +1,7 @@
 package behaviour.pattern.state.model;
 
+// State interface
 public interface AcademicStage {
-
-	void stage();
+	void doLearning();
+	AcademicStage nextCourse();
 }

@@ -1,5 +1,6 @@
 package structure.pattern.bridge.model;
 
+//Refined Abstraction 
 public class FriedRice extends MainFood{
 
 	public FriedRice(NonVegToppings topping) {

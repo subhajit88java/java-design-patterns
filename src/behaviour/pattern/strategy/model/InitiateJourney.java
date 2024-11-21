@@ -1,5 +1,6 @@
 package behaviour.pattern.strategy.model;
 
+// Context
 public class InitiateJourney implements Transport{
 	
 	private Transport transport;

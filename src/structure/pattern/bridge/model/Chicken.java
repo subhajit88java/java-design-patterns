@@ -1,6 +1,6 @@
 package structure.pattern.bridge.model;
 
-//Implementer's child
+//Concrete Implementation
 public class Chicken implements NonVegToppings{
 
 	@Override

@@ -4,8 +4,8 @@ package structure.pattern.adaptor.model;
 public class ModernHumanAdaptorOne extends LegacyImpl implements ModernInterface{
 	
 	@Override
-	public Human getModernHumanDescription(Long height, Long weight, Long speed) {
-		Human human =  getHumanDescription(height, weight, speed);
+	public Human getHumanDescription(Long height, Long weight, Long speed) {
+		Human human =  super.getHumanDescription(height, weight, speed);
 		Long convertedHeight = convertToMeter(human.getHeight());
 		Long convertedWeight = convertToKg(human.getWeight());
 		Long convertedSpeed = convertToKmPerHour(human.getRunningSpeed());

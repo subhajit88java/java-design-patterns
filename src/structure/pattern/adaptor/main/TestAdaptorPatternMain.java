@@ -17,12 +17,12 @@ public class TestAdaptorPatternMain {
 		
 		// modern human one
 		Human modernHumanOne = new ModernHumanAdaptorOne()
-				.getModernHumanDescription(6L, 90L, 15L);
+				.getHumanDescription(6L, 90L, 15L);
 		System.out.println("Modern Human one : " + modernHumanOne.getHumanDescription());
 		
 		// modern human two
 		Human modernHumanTwo = new ModernHumanAdaptorOne()
-						.getModernHumanDescription(6L, 90L, 15L);
+						.getHumanDescription(6L, 90L, 15L);
 		System.out.println("Modern Human two : " + modernHumanTwo.getHumanDescription());
 
 		
