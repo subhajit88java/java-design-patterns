@@ -30,4 +30,10 @@ public class ModernHumanAdaptorTwo implements ModernInterface{
 		return (long) (0.3048 * height);
 	}
 
+	@Override
+	public Human getHumanDescription(Long height, Long weight, Long speed) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
