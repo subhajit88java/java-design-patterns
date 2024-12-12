@@ -39,6 +39,7 @@ public class TestCompositePatternMain {
 	}
 }
 
+// part-whole hierarchy
 // has-a relationship
 // Components :
 // 1. client

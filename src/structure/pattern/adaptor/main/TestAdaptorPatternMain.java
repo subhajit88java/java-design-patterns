@@ -32,7 +32,8 @@ public class TestAdaptorPatternMain {
 }
 
 // Components of Adapter design pattern :
-// 1. Client 
+// 1. Client
+// 2. Legacy interface
+// 3. Adaptee 
 // 2. Target
-// 3. Adaptee
 // 4. Adapter
