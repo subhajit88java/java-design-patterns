@@ -6,6 +6,7 @@ import behaviour.pattern.observer.model.Radio;
 import behaviour.pattern.observer.model.Reporter;
 import behaviour.pattern.observer.model.Tv;
 
+// Client 
 public class ObserverPatternMain {
 	
 	public static void main(String[] args) {
@@ -28,4 +29,9 @@ public class ObserverPatternMain {
 	}
 
 }
+
+// Items :
+// Observer interface, Concrete observers : Terminals who are dependent on subject. If internal stae of subject changes then all the registered observers are notified 
+// Subject interface, Concrete subject : A class which maintains list of observers along with add/remove feature and also maintain a state. If the state changes all registered observers are notified
+// Client : Creates subject and observers and set internal state of subject
 
