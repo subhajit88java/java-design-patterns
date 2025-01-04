@@ -2,8 +2,8 @@ package behaviour.pattern.visitor.model;
 
 // VisitorInterface
 public interface VisitorInterface {
-	void calculateInterest(Bank bank);
+	void performOperation(Bank bank, BankOperations operation);
 	
-	// Modification during a said timing
-	void showFees(College college);
+	// New operation added for different set of elements
+	void performOperation(College college, CollegeOperations operation);
 }

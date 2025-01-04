@@ -1,5 +1,6 @@
 package behaviour.pattern.memento.model;
 
+// ConcreteMemento
 public class ConcreteMemento implements MementoInterface{
 	
 	private String content;

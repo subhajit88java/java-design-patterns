@@ -2,6 +2,7 @@ package behaviour.pattern.memento.model;
 
 import java.util.Stack;
 
+// Caretaker
 public class Caretaker {
 	
 	private Stack<MementoInterface> historyStack;

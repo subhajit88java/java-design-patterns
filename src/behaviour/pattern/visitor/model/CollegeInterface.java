@@ -1,6 +1,6 @@
 package behaviour.pattern.visitor.model;
 
-// Item interface
+// Element interface
 public interface CollegeInterface {
-	void showFees(VisitorInterface visitor);
+	void performOperation(VisitorInterface visitor, CollegeOperations operation);
 }

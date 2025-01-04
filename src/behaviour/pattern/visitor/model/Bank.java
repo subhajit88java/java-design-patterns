@@ -1,6 +1,6 @@
 package behaviour.pattern.visitor.model;
 
-//Concrete Item
+//Concrete Element
 public class Bank implements BankInterface{
 	
 	private String bankName;
@@ -12,8 +12,8 @@ public class Bank implements BankInterface{
 	}
 	
 	@Override
-	public void calculateInterest(VisitorInterface visitor) {
-		visitor.calculateInterest(this);
+	public void performOperation(VisitorInterface visitor, BankOperations operation) {
+		visitor.performOperation(this, operation);
 	}
 
 	public String getBankName() {

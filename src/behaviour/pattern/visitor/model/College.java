@@ -1,5 +1,6 @@
 package behaviour.pattern.visitor.model;
 
+//Concrete Element
 public class College implements CollegeInterface{
 	
 	private String collegeName;
@@ -11,8 +12,8 @@ public class College implements CollegeInterface{
 	}
 
 	@Override
-	public void showFees(VisitorInterface visitor) {
-		visitor.showFees(this);
+	public void performOperation(VisitorInterface visitor, CollegeOperations operation) {
+		visitor.performOperation(this, operation);
 	}
 
 	public String getCollegeName() {

@@ -8,6 +8,7 @@ import behaviour.pattern.mediator.model.MediatorPerson;
 import behaviour.pattern.mediator.model.Russian;
 import behaviour.pattern.mediator.model.TranslatorInterface;
 
+// Client
 public class MediatorPatternMain {
 	
 	public static void main(String[] args) {
@@ -45,5 +46,5 @@ public class MediatorPatternMain {
 // 1. Client
 // 2. Mediator interface
 // 3. Concrete mediator
-// 4. Collegue interface
-// 5. Concrete collegues
+// 4. Colleague interface
+// 5. Concrete colleagues

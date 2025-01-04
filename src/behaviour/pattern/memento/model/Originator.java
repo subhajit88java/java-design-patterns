@@ -1,5 +1,6 @@
 package behaviour.pattern.memento.model;
 
+// Originator
 public class Originator {
 	
 	private String content = "";

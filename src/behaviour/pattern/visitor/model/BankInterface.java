@@ -1,6 +1,6 @@
 package behaviour.pattern.visitor.model;
 
-// Item interface
+// Element interface
 public interface BankInterface {
-	void calculateInterest(VisitorInterface visitor);
+	void performOperation(VisitorInterface visitor, BankOperations operation);
 }
