@@ -5,10 +5,10 @@ public abstract class TechnologyOnboard {
 	
 	// template method
 	public final void onboardTech() {
-		google();
-		takeRoughNotes();
-		practiceCoding();
-		document();
+		google(); // [shared] child class can override as per need or use the default definition
+		takeRoughNotes(); // [shared] mandatory method to be followed by child, no modification permitted
+		practiceCoding(); // [non-shared] child has to define its own
+		document(); // [non-shared] child has to define its own
 	}
 	
 	// hook methods

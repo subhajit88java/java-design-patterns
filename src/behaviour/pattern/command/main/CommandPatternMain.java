@@ -78,7 +78,7 @@ public class CommandPatternMain {
 }
 
 // Items 
-// 1. Command 
-// 2. Receiver
-// 3. Invoker
-// 4. Client
+// 1. Command interface, Concrete command : Contains the receiver and invokes the specific action of the receiver based on the type of command
+// 2. Receiver interface, Concrete receiver : The entity on which some actions will be performed
+// 3. Invoker : Invoker is supplied with specific commands(which in turn references specific receiver) one at a time and asked to execute the command
+// 4. Client : Creates specific receivers, commands, invoker and directs the invoker about which command to execute
