@@ -19,8 +19,8 @@ public class TestBreakSingleton {
 		//remediateSingletonUsingReflection();
 		//breakSingletonUsingDeserialization();
 		//remediateSingletonUsingDeserialization();
-		//breakSingletonUsingCloning();
-		remediateSingletonUsingCloning();
+		breakSingletonUsingCloning();
+		//remediateSingletonUsingCloning();
 	}
 
 	private static void breakSingletonUsingReflection() {

@@ -43,14 +43,14 @@ public class SolidPatternMain {
 		rajdhani.durgapurToKolkata();
 		rajdhani.kolkataToChennai();
 		
-		// RajdhaniExpress class withdrawn from library and client requested to use VandeBharat
+		// RajdhaniExpress class withdrawn from library and client has been requested to use VandeBharat
 		VandeBharat vandeBharat = new VandeBharat();
 		vandeBharat.durgapurToDelhi(); // behavior changed
 		vandeBharat.kolkataToChennai(); // behavior changed
 		vandeBharat.durgapurToDelhi(); // additional feature
 		
 		// Flow following Liskov's substitution
-		// RajdhaniExpress class withdrawn from library and client requested to use VandeBharat
+		// RajdhaniExpress class withdrawn from library and client has been requested to use VandeBharat
 		NamoBharat namoBharat = new NamoBharat();
 		namoBharat.durgapurToDelhi(); // core behavior not changed
 		namoBharat.kolkataToChennai(); // core behavior not changed
